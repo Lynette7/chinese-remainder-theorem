@@ -28,4 +28,4 @@ x = \sum_{i=1}^{n} a_i \cdot M_i \cdot m_i^{-1} \pmod{M}
 $$
 where $m_i^{-1}$ is the modular inverse of $m_i$ under modulo $M$, or more specifically, $m_i^{-1} \equiv M_i \pmod{m_i}$.
 
-CRT is widely used in Fully Homomorphic Encryption (FHE) and other cryptographic applications.
+CRT is widely used in Fully Homomorphic Encryption (FHE), zkSNARKs and other cryptographic applications.
