@@ -1,4 +1,4 @@
-# Chinese Reamainder Theorem (CRT)
+# Chinese Remainder Theorem (CRT)
 
 CRT enables efficient computation with large numbers by solving systems of congruent equations with apirwise coprime moduli.
 
