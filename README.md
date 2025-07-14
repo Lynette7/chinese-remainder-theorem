@@ -3,6 +3,7 @@
 CRT enables efficient computation with large numbers by solving systems of congruent equations with apirwise coprime moduli.
 
 Given a set of different congruent equations as follows:
+
 $$
 \begin{cases}
 x \equiv a_1 \pmod{m_1} \\
@@ -11,6 +12,7 @@ x \equiv a_2 \pmod{m_2} \\
 x \equiv a_n \pmod{m_n}
 \end{cases}
 $$
+
 where $a_i$ and $m_i$ are integers and $m_i$ are pairwise coprime, the Chinese Remainder Theorem guarantees the existence of a unique solution $x$ modulo $M = \prod_{i=1}^{n} m_i$.
 
 To get the unique solution, CRT requires two steps:
